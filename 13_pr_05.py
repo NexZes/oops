@@ -25,11 +25,12 @@ class Train:
             print("Sorry this train is full! Kindly try in tatkal")
 
     def cancelTicket(self, seatNo):
-        pass
+         seatNo = self.seats.append(self.seatNo)
+         print(f"Your ticket has been cancelled!")
+         self.seats = self.seats + 1
 
-intercity = Train("Intercity Express: 14015", 90, 2)
+intercity = Train("Intercity Express: 14015", 90, [1,2,3,4,5])
 intercity.getStatus() 
 intercity.bookTicket()
-intercity.bookTicket()
-intercity.bookTicket()
+intercity.cancelTicket(4)
 intercity.getStatus()
