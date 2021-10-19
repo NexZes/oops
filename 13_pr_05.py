@@ -25,7 +25,7 @@ class Train:
             print("Sorry this train is full! Kindly try in tatkal")
 
     def cancelTicket(self, seatNo):
-        
+        pass
 
 intercity = Train("Intercity Express: 14015", 90, 2)
 intercity.getStatus() 
