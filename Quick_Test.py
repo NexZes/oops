@@ -1,2 +1,7 @@
-print(f"Options are: \n","(1) Square\n","(2) Cube\n","(3) Sqrt\n")
-        
+a = [0,1,2,3,4,1]
+
+print(a)
+
+a.remove(1)
+print(a)
+
